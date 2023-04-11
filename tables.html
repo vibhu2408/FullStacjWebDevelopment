@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        body{
+            background-color: rgba(214, 221, 213, 0.717);
+        }
+        table{
+            outline: blue ridge 30px;
+            border: 1px solid black;
+            padding: 20px;
+        
+        }
+        td,th{
+            border: 1px solid black;
+            text-align: center;
+        }
+        tr:nth-child(odd){
+            background-color: pink;
+        }
+        tr:nth-child(even){
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Subject Record</caption>
+        <tr>
+            <th rowspan="2">SNo. </th>
+            <th rowspan="2">Course </th>
+            <th rowspan="2">Subject </th>
+            <th colspan="2">Marks </th>
+            <th colspan="2">Category </th>
+            <th rowspan="2">Practical/Theory </th>
+        </tr>
+        <tr>
+            <td>Internals</td>
+            <td>Externals</td>
+            <td>Internals</td>
+            <td>Externals</td>
+        </tr>
+        <tr>
+            <td rowspan="4">1</td>
+            <td rowspan="4">MBA</td>
+            <td>Management Account</td>
+            <td>30</td>
+            <td>70</td>
+            <td>-</td>
+            <td>Check</td>
+            <td>Theory</td>
+        </tr>
+        <tr>
+            <td>Management Account</td>
+            <td>30</td>
+            <td>70</td>
+            <td>-</td>
+            <td>Check</td>
+            <td>Theory</td>
+        </tr>
+        <tr>
+            <td>Management Account</td>
+            <td>30</td>
+            <td>70</td>
+            <td>-</td>
+            <td>Check</td>
+            <td>Theory</td>
+        </tr>
+        <tr>
+            <td>Management Account</td>
+            <td>30</td>
+            <td>70</td>
+            <td>-</td>
+            <td>Check</td>
+            <td>Theory</td>
+        </tr>
+        <tr>
+            <td rowspan="4">2</td>
+            <td rowspan="4">MCM</td>
+            <td>Management Account</td>
+            <td>30</td>
+            <td>70</td>
+            <td>-</td>
+            <td>Check</td>
+            <td>Theory</td>
+        </tr>
+        <tr>
+            <td>Management Account</td>
+            <td>30</td>
+            <td>70</td>
+            <td>-</td>
+            <td>Check</td>
+            <td>Theory</td>
+        </tr>
+        <tr>
+            <td>Management Account</td>
+            <td>30</td>
+            <td>70</td>
+            <td>-</td>
+            <td>Check</td>
+            <td>Theory</td>
+        </tr><tr>
+            <td>Management Account</td>
+            <td>30</td>
+            <td>70</td>
+            <td>-</td>
+            <td>Check</td>
+            <td>Theory</td>
+        </tr>
+    </table>
+</body>
+</html>
