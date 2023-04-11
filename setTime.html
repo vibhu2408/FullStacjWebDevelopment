@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Set Time </title>
+</head>
+<body>
+    <p id="p1"></p> 
+    <label for="timer" >Timer :</label>
+    <input type="number" id="t1" placeholder="enter time"> <br>
+    <button onclick="startTimer()">Start</button>
+    <button onclick="stopTimer()">Stop</button>
+    <script>
+        var count ;
+        //console.log(count);
+        var myVar ;
+        function startTimer(){
+            myVar = setInterval(myTimer1,1000);
+            count = document.getElementById("t1").value ;
+        }
+        function myTimer1(){
+            if(count>0){
+                count-- ;
+                document.getElementById("t1").value = count ;
+            }
+            else{
+                document.getElementById("p1").innerHTML = "Done" ;
+            }
+        }
+        function stopTimer(){
+            clearInterval(myVar);
+        }
+    </script>
+</body>
+</html>
