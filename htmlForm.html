@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form</title>
+    <style>
+        .n-form{
+            /* display: flex; */
+            font-size: 30px;
+            flex-direction: column;
+            padding: 30px 30px 70px 30px;
+            outline: 1px solid black;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .n-h1{
+            text-align: center;
+        }
+        label{
+           line-height:  50px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="n-h1">HTML Form</h1>
+    <form action="" class="n-form">
+        <fieldset class="f-fset">
+            <legend>Basic Information</legend>
+            <label for="">Full Name :</label>
+            <input type="text" name="fName" id="fName"> <br>
+            <label for="">Birth Date :</label>
+            <input type="date" name="dob" id="dob"><br>
+            <label for="gender">Gender : </label>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="male">Female</label> <br>
+            <label for="">Address :</label>
+            <input type="text" name="address" id="address"> <br>
+            <label for="">Phone Number:</label>
+            <input type="number" name="phone" id="phone"> <br>
+        </fieldset>
+        <fieldset class="f-fset">
+            <legend>Extra Information</legend>
+            <label for="interest">Interest :</label>
+            <input type="checkbox" name="interest" id="books">
+            <label for="books">Books</label> 
+            <input type="checkbox" name="interest" id="Movies">
+            <label for="books">Movies</label>
+            <input type="checkbox" name="interest" id="Videogames">
+            <label for="books">Videogames</label> <br>
+            <label for="favColor">Favourite Colour :</label>
+            <select id="favColor" name="favColor">
+                <option value="Black">Black</option>
+                <option value="Red">Red</option>
+                <option value="White">White</option>
+                <option value="White">Blue</option>
+            </select>
+        </fieldset>
+            <input type="submit" value="Send Data">
+            <input type="reset" value="Reset Form">   
+    </form>
+</body>
+</html>
