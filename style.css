@@ -1,0 +1,11 @@
+.n-list{
+    list-style: none;
+    font-size: 30px;
+    line-height: 40px;
+}
+ul a{
+    text-decoration: none;
+}
+ul a:hover{
+    color: green;
+}
