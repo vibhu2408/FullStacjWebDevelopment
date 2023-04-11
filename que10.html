@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Various Tags</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .n-nav a{
+            text-decoration: none;
+            color: black;
+            font-size: 30px;
+            margin: 0 50px 0 ;
+            color: white;
+            line-height: 45px;
+        }
+        .n-nav a:hover{
+            color: rgb(190, 11, 41);
+        }
+        nav{
+            background-color: black;
+        }
+        article{
+            text-align: left;
+            padding-left: 10px;
+        }
+        /* video{
+            padding-left: 33%;
+            margin-top: -020px;
+        } */
+        .v-h1{
+            text-align: center;
+        }
+        .media{
+            display: flex;
+            flex-direction: row;
+            margin: 0 40px;
+            gap:10%;
+            margin-bottom: 40px;
+        }
+        .datalist{
+            text-align: center;
+            font-size: larger;
+            font-weight: bolder;
+        }
+        embed{
+            margin: 1% 0 0 35%;
+        }
+        footer{
+            text-align: center;
+            background-color: rgb(231, 158, 41);
+            color: white;
+            /* line-height: 10px; */
+            padding: 10px 0 15px 0;
+            font-size: larger;
+        }
+        .f-a{
+            color: white;
+            line-height: 20px;
+        } 
+    </style>
+</head>
+<body>
+    <nav class="n-nav">
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact Us</a>
+    </nav>
+    <article>
+        <header>
+          <h1>Web Development Assignment</h1>
+          <p>-- Posted by Akash Yadav</p>
+          <p>This is the term work related to the web Development lab PCS 693</p>
+        </header>
+        <p>It is the representation of Article tag, and Header tag.</p>
+    </article>
+    <h1 class="v-h1">Implementaion of Audio and Video tag</h1>
+    <div class="media">
+        <video src="Avengers.Infinity.War.2018.1080p.BluRay.x264-[YTS.AM].mp4" width="440" height="300" controls>
+            Your browser does not support the video tag.
+        </video>
+        <audio  src="295 - Sidhu Moose Wala.mp3" controls width="540" height="480"></audio>
+    </div>
+    <div class="datalist">
+        <label for="browser">Choose your browser from the list:</label>
+        <input list="browsers" name="browser" id="browser">
+        <datalist id="browsers">
+        <option value="Edge">
+        <option value="Firefox">
+        <option value="Chrome">
+        <option value="Opera">
+        <option value="Safari">
+        </datalist>
+    </div>
+    <embed type="text/html" src="embed.txt" width="500px" height="50px">
+    <footer>
+        <p>Author: Akash </p>
+        <p><a href="mailto:yadavakash7017@gmail.com" class="f-a">yadavakash7017@gmail.com</a></p>
+    </footer>
+</body>
+</html>
